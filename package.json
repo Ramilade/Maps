@@ -9,10 +9,20 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@firebase/firestore": "^4.2.0",
+    "@react-native-firebase/app": "^18.5.0",
+    "@react-native-firebase/firestore": "^18.5.0",
+    "@react-native-firebase/storage": "^18.5.0",
+    "dotenv": "^16.3.1",
     "expo": "~49.0.13",
+    "expo-image-picker": "~14.3.2",
+    "expo-location": "~16.1.0",
     "expo-status-bar": "~1.6.0",
+    "firebase": "^10.4.0",
     "react": "18.2.0",
-    "react-native": "0.72.5"
+    "react-native": "0.72.5",
+    "react-native-dotenv": "^3.4.9",
+    "react-native-maps": "1.7.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
